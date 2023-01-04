@@ -11,7 +11,7 @@ class WeatherController extends AbstractController
     #[Route('/weather')]
 function index(): Response
     {
-    $apiKey = "0681ce78641fabbc31b7640408d6cac8";
+    $apiKey = "##################";
     $location = 'Paris';
     $url = 'https://api.openweathermap.org/data/2.5/weather?' .
     'q=' . urlencode($location) .
